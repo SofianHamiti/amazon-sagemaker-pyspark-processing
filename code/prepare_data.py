@@ -20,5 +20,5 @@ if __name__ == "__main__":
 
     
     # UPLOAD PROCESSED DATA TO S3
-    df.write.save(args.s3_output, format='csv', header=True)
+    # df.write.save(args.s3_output, format='csv', header=True)
 
